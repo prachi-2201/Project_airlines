@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+a{
+    text-decoration: none;
+    color: rgb(211, 208, 208);
+}
+
+li{
+    display: inline-block;
+}
+
+.disp-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.txt-center{
+    text-align: center;
+}
+
+/* Navbar css */
+
+
+.nav{
+    background: radial-gradient(ellipse at 50% 50%, rgba(53, 51, 51, 1) 0%, rgba(45, 46, 46, 1) 19%, rgba(0, 0, 0, 1) 100%);
+    color: rgb(211, 208, 208);
+}
+h1{
+    font-size: 35px;
+    
+}
+.color{
+    color: rgb(97, 97, 224);
+}
+h4{
+    color: rgb(229, 228, 228);
+}
+.navbar{
+    justify-content: center;
+    text-align: right;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.logo{
+    width: 500px;
+}
+.menu{
+    width: 800px;
+}
+
+.icons li,.list li{
+    margin: 10px 20px;
+    
+}
+.list li{
+    text-transform: uppercase;
+   font-size: 18px;
+}
+.list li a{
+    padding: 5px;
+}
+.list li a:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+
+
+/* main body css */
+
+.banner{
+    background-image: url(images/banner_1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 580px;
+}
+
+.main_body{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.comfort,.guaranteed,.info{
+    width: 400px;
+    font-style: italic;
+    margin-left: 30px;
+}
+.comfort{
+    padding-top: 50px;
+    text-align: left;
+    color: white;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.guaranteed
+{
+    font-size: 40px;
+    text-align: right;
+    color: white;
+    font-weight: 100;
+}
+
+.info{
+    color: white;
+    font-size: 18px;
+}
+
+
+
+.body{
+    margin-bottom: 30px;
+}
+.col1{
+    width: 40%;
+    background-color: rgb(231, 231, 231);
+    padding: 0 50px 35px 60px;
+}
+.planner{
+    font-style: italic;
+    text-transform: uppercase;
+    color: #3c4046;
+    font-size: 28px;
+    line-height: 38px;
+    padding: 30px 0 16px 0;
+    letter-spacing: -1px;
+}
+.col2
+{
+    width: 60%;
+    padding: 0 50px 35px 60px;
+}
+.radio{
+    width: 150px;
+    font-size: 18px;
+}
+.leaving{
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 5px 0;
+}
+.input1{
+    background: #fff;
+    font-size: 16px;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    margin-bottom: 8px;
+    max-width: 350px;
+    color: #9d9fa2;
+    padding: 5px 15px;
+}
+.wd-150{
+    max-width: 150px;
+}
+.go{
+    padding: 8px 26px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #1e749a;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+
+.recent{
+    font-style: italic;
+    text-transform: uppercase;
+    color: #3c4046;
+    font-size: 28px;
+    padding: 5px;
+}
+
+.news_head,.news_info{
+    padding: 3px;
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+.news_head{
+    margin-top: 10px;
+   color: #1e749a;
+}
+.news_info{
+    color: #3c4046;
+}
+
+.heading{
+    font-style: italic;
+    text-transform: uppercase;
+    color: #3c4046;
+    font-size: 28px;
+    line-height: 38px;
+    padding: 30px 0 16px 0;
+}
+.info_2{
+    font-size: 18px;
+    color: #1e749a;
+    margin: 5px;
+}
+.mar-10{
+    margin-top: 10px;
+}
+.disp-inline-block{
+    display: inline-block;
+}
+.i-color{
+    color: #1e749a;
+}
+.aircraft{
+    color: #3c4046;
+    margin-top: 30px;
+}
+.air_info{
+    color:#474a4e;
+    font-size: 17px;
+    margin-left: 15px;
+}
+.mr-0{
+    margin-left: auto;
+    color: #ccc;
+    font-style: italic;
+    font-size: 13px;
+}
+.bt-color{
+    background-color: #474a4e;
+    
+}
+.button{
+    margin-left: auto;
+}
+.reserve{
+    margin-left: 25px;
+}
+.wrapper{
+    align-items: center;
+}
+.p-0{
+    padding: 0;
+    background-color: transparent;
+}
+.color-grey{
+    color: #3c4046;
+}
+.quote{
+    width: 200px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: #1e749a;
+    color: #fff;
+    padding: 20px;
+    margin: 0 auto;
+}
+.author{
+    text-align: right;
+}
+.left{
+    
+    text-align: left;
+}
+.jus{
+    justify-content: space-around;
+    height: 100px;
+    
+}
