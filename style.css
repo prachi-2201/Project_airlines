@@ -115,7 +115,7 @@ h4{
     margin-bottom: 30px;
 }
 .col1{
-    width: 40%;
+    max-width: 400px;
     background-color: rgb(231, 231, 231);
     padding: 0 50px 35px 60px;
 }
@@ -130,7 +130,7 @@ h4{
 }
 .col2
 {
-    width: 60%;
+    max-width: 800px;
     padding: 0 50px 35px 60px;
 }
 .radio{
@@ -264,4 +264,52 @@ h4{
     justify-content: space-around;
     height: 100px;
     
+}
+.wd-300{
+    max-width: 450px;
+}
+.wd-200{
+    max-width: 200px;
+}
+
+@media (max-width:840px) {
+    .banner{
+        height: 400px;
+    }
+    .comfort{
+        font-size: 30px;
+        width: 200px;
+    }
+    .guaranteed{
+        font-size: 25px;
+        width: 200px;
+    }
+    .info{
+        font-size: 13px;
+    }
+    .input1{
+        width: 200px;
+    }
+}
+@media (max-width:400px) {
+    .banner{
+        height: 150px;
+    }
+    .comfort{
+        padding-top: 10px;
+        font-size: 20px;
+        width: 200px;
+    }
+    .guaranteed{
+        font-size: 15px;
+        width: 200px;
+    }
+    .info{
+        font-size: 11px;
+        text-wrap: wrap;
+        width: 200px;
+    }
+    .input1{
+        width: 100px;
+    }
 }
